@@ -39,7 +39,6 @@ class CeoMain extends Component {
     };
 
     componentDidMount() {
-        // usertoken으로 써야 작동함
         this.timer = setInterval(this.progress, 20);
         const token = localStorage.getItem('usertoken')
         if(token !== null) {
@@ -103,7 +102,7 @@ class CeoMain extends Component {
             <div className="owner-login">
                 <div className="barlogin">
                 <a href="/profile"><IconButton paddingLeft="5px"><AccountCircleIcon fontSize="large"/></IconButton></a>
-                <Typography variant="h6" color="inherit" display="inline">
+                <Typography variant="h7" color="inherit" display="inline">
                 안녕하세요! {this.state.name} 님
                 </Typography>
                 </div>

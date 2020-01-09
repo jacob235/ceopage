@@ -9,7 +9,6 @@ import TableCell from '@material-ui/core/TableCell';
 import { CircularProgress, Box, Paper } from '@material-ui/core';
 import InputBase from '@material-ui/core/InputBase';
 import RefundListTable from '../components/RefundListTable';
-// import RefundInputForm from '../components/RefundInputForm';
 import {withStyles, createMuiTheme} from '@material-ui/core/Styles';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
